@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/1_unir_html_css/style.css">
+
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: slateblue;
+        }
+        @import url(/1_unir_html_css/style.css);
+    </style>
+    
+</head>
+<body>
+    <h1>Conectar HTML y CSS</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem omnis harum, consectetur quidem nemo possimus magni facere. Velit exercitationem repellendus itaque inventore aliquam et sapiente accusantium minima deserunt, natus quibusdam.</p>
+    <h4>Forma 1</h4>
+    <p>Usando la etiqueta link</p>
+    <pre>
+        <code>
+            &#60;link rel="stylesheet" href="style.css"&#62;
+        </code>
+    </pre>
+    <hr>
+    <h4>Forma 2</h4>
+    <p>Usando la etiqueta style, debajo del "head" </p>
+    <pre>
+        <code>
+            &#60;style&#62;
+                body{
+                    background-color: steelblue;
+                }
+            &#60;/style&#62;
+        </code>
+    </pre>
+    <hr>
+    <h4 style="background-color: springgreen">
+    Forma 3</h4>
+    <p>Usar CSS en linea, dependiendo de la etiqueta</p>
+    <pre>
+        <code>
+            &#60;h1 style="background-color: springgreen;"&#62;
+            Lorem.
+            &#60;/h1&#62;
+        </code>
+    </pre>
+    <hr>
+    <h4>Forma 4</h4>
+    <p>USando la regla "import"</p>
+    <pre>
+        <code>
+            &#60;style&#62;
+            @import url(style.css);
+            &#60;/style&#62;
+        </code>
+    </pre>
+</body>
+</html>
