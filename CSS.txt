@@ -1,0 +1,14 @@
+Cascade Style Sheets
+Hojas de Estilo en Cascada
+
+Lenguaje de diseño
+
+Lo interpreta el navegador
+
+Nacio en 1996
+
+La version CCS2 salio en 1998
+
+En 2011 se tomo la desicion de modularizar CSS
+
+El contenido de CSS es acumulativo
