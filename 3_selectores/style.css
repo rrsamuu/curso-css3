@@ -1,0 +1,104 @@
+/* SELECTORES */
+
+/* SELECTORES SIMPLES */
+    /* SELECTORES ELEMENTALES */
+        /* SELECTOR UNIVERSAL -> * */
+        /* SELECTOR DE TIPO O ETIQUETA -> nombre_de_etiqueta*/
+        *{
+            background-color: transparent;
+        }
+        h1{
+            background-color: transparent;
+        }
+
+        p{
+            background-color: transparent;
+        }
+            
+    /* SELECTORES DE ATRIBUTO */
+    /* id */
+    #title{
+        background-color: magenta;
+    }
+    /* clase - puede tener varias clases dentro de una etiqueta*/
+    .title{
+        background-color: lightsalmon;
+    }
+    .text{
+        color:lightseagreen;
+    }
+    /* otros */
+    /* [atributo] [atributo=valor] */
+    [href]{
+        background-color: mediumorchid;
+    }
+    /* [atributo=valor] */
+    [href="https://google.com"]{
+        background-color: pink;
+    }
+    /* [atributo^=valor] Al principio*/
+    [href^="color"]{
+        background-color: red;
+    }
+    /* [atributo*=valor] con tan solo que lo tenga en cualquier posicion*/
+    [href*="modo"]{
+        background-color: seagreen;
+    }
+    /* [atributo$=valor] al final*/
+    [href$="azul"]{
+        background-color: steelblue;
+
+    }
+    /* [atributo|=valor] solo en idiomas*/
+    [lang|=en]{
+        background-color: magenta;
+    }
+
+/* SELECTORES COMPUESTOS */
+    /* SELECTORES AGRUPADO - requieren mas de un simbolo*/
+
+    /* .text-1{
+        background-color: steelblue;
+    }
+    .text-2{
+        background-color: steelblue;
+    }
+    .text-3{
+        background-color: steelblue;
+    }
+    .text-4{
+        background-color: steelblue;
+    } */
+
+    .text-1, .text-2, .text-3, .text-4{
+        background-color: steelblue;
+    }
+
+    /* SELECTORES COMBINADORES */
+        /* SELECTOR  DESCENDENTE - seleccionar deppues de otrs etiqueta PADRE - HIJO*/
+
+        /* h2{
+            background-color: teal;
+        }
+        .title-2{
+            background-color: teal;
+        } */
+
+        div .title-2{
+            ;
+        }
+        /* SELECTOR DE HARMANO SIGUIENTE + que estan al mismo nivel*/
+
+        .text-2 + .title-2{
+            background-color: tomato;
+        }
+        /* SELECTOR DE HARMANO SIGUIENTES ~ que estan todos al mismo nivel*/
+        .text-2 ~ p{
+            background-color: teal;
+        }
+        /* SELECTOR HIJOS DIRECTOS ~ que estan todos al mismo nivel*/
+        .container > p{
+            background-color: violet;
+        }
+    /* SELECTORES - PSEUDOELEMENTOS */
+
