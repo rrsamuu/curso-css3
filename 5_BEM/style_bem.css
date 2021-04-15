@@ -1,0 +1,66 @@
+.main-title{
+    text-align: center;
+}
+
+.header{
+    background-color: lightblue;
+    height: 50px;
+}
+
+.main{
+    background-color: lightgreen;
+    height: 600px;
+}
+
+.footer{
+    background-color: salmon;
+    height: 200px;
+}
+
+/* nav ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li{
+    line-height: 3;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: green;
+}
+
+a{
+    color: red
+} */
+
+/* todo lo anterior esta mal estructurado */
+
+.main-menu{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-menu__item{
+    line-height: 3;
+}
+
+.main-menu__link{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: green;
+}
+
+.main-menu__link--active{
+    background-color: red;
+}
