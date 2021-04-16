@@ -71,3 +71,44 @@ a{
 }
 /* ----------------------------------- */
 /* BORDER */
+/* 
+    border width
+        px|em|rem|%|....
+
+    border-style
+        none|hcoridden|dotted|dashed|solid|double|groove|ridge|inset|outset|initial|inherit;
+
+        Estas son medidas dependen del navegador
+        thick -> ancho
+        medium -> medio
+        thin -> fino
+    
+    border-color
+        ccs native|rgb|rgba|hsl|hsla|hexadecimal|transparent
+    
+    border-top-(width | style | color)
+    border-rigth-(width | style | color)
+    border-bottom-(width | style | color)
+    border-left-(width | style | color)
+
+ */
+ 
+ .box1b, .box2b{
+     width: 300px;
+     height: 200px;
+     margin: 2em;
+ }
+
+ .box1b{
+     background-color: yellowgreen;
+     border: 100px solid red;
+     border-top-width: 200px;
+     border-top-color: transparent;
+ }
+
+ .box2b{
+     background-color: lightseagreen;
+     border-left-width: 5px;
+     border-left-style: dotted;
+     border-left-color: blue;
+ }
