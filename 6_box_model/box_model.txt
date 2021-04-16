@@ -1,0 +1,13 @@
+En la web todo son cajas, al conjunto de esas cajas y la forma en la que el navegador los dibuja se les denomina LAYOUT
+
+Las propiedades principales de cada una de estas cajas son el ancho (width) y el alto (height)
+
+Existen dos tipos de elementos en HTML, elementos de linea (inline) y de bloque (block) estas propiedades se pueden modificar con el atributo "display"
+
+Elementos inline
+    Son elementos que solo ocupan su contenido
+    No se puede modificar ni su ancho ni su alto
+
+Elementos de bloque
+    Ocupan todo al nacho disponible
+    Se lespuede asignar ancho y alto

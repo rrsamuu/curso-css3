@@ -1,0 +1,73 @@
+/* elemento de bloque */
+h1{
+    background-color: lightblue;
+    height: 150px;
+    width: 100px;
+}
+
+h2{
+    background-color: purple;
+    width: 50px;
+}
+
+/* elemento de linea no tienen ancho ni alto*/
+a{
+    background-color: lime;
+    width: 300px;
+    height: 300px;
+}
+
+/* div es un elemento de bloque */
+
+.box-1{
+    width: 100px;
+    height: 100px;
+    background-color: lime;
+    /* separar contenido del borde */
+    padding: 10px;
+    /* se cuenta como caja, y se ve la diferencia de espacio, sus dimensionescuentan para el tamaño total */
+    border:2px solid palevioletred;
+
+    margin: 20px;
+    /* sus dimensiones NO cuentan para el tamaño total */
+    outline: 5px solid red;
+}
+
+.box-2{
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+}
+/* --------------------------------------------------- */
+/* MARGIN Y PADDING */
+.box1{
+    width: 200px;
+    height: 200px;
+    background: lightgreen;
+    /* margin: 1em 2em 3em 4em; */
+    margin-top: 1em;
+    margin-right: 2em;
+    margin-bottom: 3em;
+    margin-left: 4em;
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    background:  lightcoral;
+    border: 2px solid blue;
+    /* padding: 1em 2em 3em 4em; */
+    padding-top: 1em;
+    padding-right: 2em;
+    padding-bottom: 3em;
+    padding-left: 4em;
+}
+
+.box2-content{
+    width: 20px;
+    height: 20px;
+    background: yellow;
+    border: 2px solid red;
+}
+/* ----------------------------------- */
+/* BORDER */
