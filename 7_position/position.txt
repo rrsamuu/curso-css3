@@ -1,0 +1,14 @@
+ Position es la propiedad que nos permite modificar el flujo del HTML
+
+ Los valores de Position son:
+    static -> valor por defecto
+    relative
+    fixed
+    sticky
+
+Al tener un elemento posicionado podemos moverlo en los tres ejes:
+    top -> parte superior
+    rigth -> parte derecha
+    bottom -> parte inferior
+    left -> parte izquierda
+    z-indez -> eje z
