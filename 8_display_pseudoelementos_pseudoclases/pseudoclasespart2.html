@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/8_display_pseudoelementos_pseudoclases/style_display_pseudoE_pseudoC.css">
+</head>
+<body>
+    <form action="#">
+        <label class="label_pc">:enabled</label>
+        <input class="input_pc" type="text">
+
+        <label class="label_pc">:disabled</label>
+        <input class="input_pc" type="text" disabled>
+
+        <input id="checkbox" class="input_pc" type="checkbox">
+        <label for="checkbox" class="label_pc">:checked</label>
+
+        <label class="label_pc">:in-range</label>
+        <input class="input_pc" type="number" min="50" max="60">
+        
+        <label class="label_pc">:out-of-range</label>
+        <input class="input_pc" type="number" min="50" max="100">
+
+        <label class="label_pc">:optional</label>
+        <input class="input_pc" type="text">
+
+        <label class="label_pc">:required</label>
+        <input class="input_pc" type="text" required>
+
+        <label class="label_pc">:valid</label>
+        <input class="input_pc" type="number">
+        
+        <label class="label_pc">:invalid</label>
+        <input class="input_pc" type="number">
+    </form>
+</body>
+</html>

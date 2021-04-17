@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/8_display_pseudoelementos_pseudoclases/style_display_pseudoE_pseudoC.css">
+</head>
+<body>
+    <h3>DISPLAY</h3>
+    <p>
+        Nos permite definir como se comporta una caja
+        <br><br>
+        De forma natural existen elementos en linea y elementos de bloque
+        <br><br>
+        Los valores de esta propiedad son:
+        <ul>
+            <li>inline -> establece que la caja se comporta como si fuera un elemento de linea</li>
+            <li>block -> establece que la caja se comporta como si fuera un elemento de bloque</li>
+            <li>inline-block -> se comporta como un elemento en linea pero acepta width y heigth</li>
+            <li>none -> oculta el elemento pero se sigue renderizando</li>
+            <li>table -> imita el comportamiendo de una tabla</li>
+            <li>list-item -> imita el comportamiento de una lista</li>
+            <br>
+            <li>flex -> maquetar componentes</li>
+            <li>grid -> maquetar layout</li>
+        </ul>
+    </p>
+    <br>
+    <span class="inline">Soy un elemento en línea</span>
+    <span class="inline">Soy otro elemento en línea</span>
+    <p class="block">Soy un elemento de bloque, ocupa todo el ancho</p>
+    <hr>
+    <h3>PSEUDOELEMENTOS</h3>
+    <p>
+        Se utilizan para dar estilos a partes especificas de un elementos
+        <br><br>
+        la sintaxis es
+        <pre>
+            <code>
+                selector::pseudo-element {estilos}
+            </code>
+        </pre>
+        Existen 5 pseudoelementos
+        <ul>
+            <li>::firt-line (elementos de bloque)</li>
+            <li>::firt-letter (elemento e bloque)</li>
+            <li>::before</li>
+            <li>::after</li>
+            <li>::selection</li>
+        </ul>
+    </p>
+    <a href="pesudoelementos.html">LINK PARA VER ARCHIVOS</a>
+    <hr>
+    <h3>PSEUDOCLASES</h3>
+    <p>
+        Son selectores que reaccionan en tiempo real detectando la interaccion del usuario con algunos elementos
+        <br><br>
+        Funcionan con todos los selectores de css
+        <br><br>
+        Su sintaxis es:
+        <pre>
+            <code>
+                selector:pseudoclase{
+                    estilos
+                }
+
+                :pseudoclase{
+                    estilos
+                }
+            </code>
+        </pre>
+    </p>
+    <a href="pseudoclases.html">Pseudoclases part 1</a>
+    <a href="pseudoclasespart2.html">Pseudoclases part 2</a>
+    <a href="pseudoclasespart3.html">Pseudoclases part 3</a>
+</body>
+</html>
