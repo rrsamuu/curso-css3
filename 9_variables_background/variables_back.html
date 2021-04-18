@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/9_variables_background/style_variables_background.css">
+</head>
+
+<body>
+    <h1 class="title">Variables CSS</h1>
+    <p>
+        Una variable es un espacio en memoria en el que guardamos un valor paa poder reutilizarlo o modificarlo
+        <br><br>
+        Las variables necesitan estar dentro de un selector
+        <br><br>
+        Tienen herencia y cascada
+        <br><br>
+        Existen variables globales y locales, dependera del selector en el que lo declaremos
+        <br><br>
+        Las variables CSS no son lo mismo que las variables SCSS
+        <br><br>
+        Su sintaxis es:
+        <pre>
+            <code>
+                selector{
+                    --nombre_variable:valor;
+                }
+            </code>
+        </pre>
+    </p>
+    <hr>
+
+    <article class="main-article">
+        <p class="paragraph">Párrafo principal</p>
+    </article>
+
+    <article class="article">
+        <p class="paragraph">Otro párrafo</p>
+    </article>
+
+    <input type="checkbox" class="check">
+    <div class="box"></div>
+    <hr>
+    <h3>BACKGROUND</h3>
+    <p>
+        Es una propiedad que nos permite darle un fondo a las cajas
+        <br><br>
+        La propiedad background es un shorthand, la lista de propiedades que incluye background son:
+        <ul>
+            <li>background-color -> un color de fondo</li>
+            <li>background-image -> una imagen de fondo</li>
+            <li>background-repeat -> establecer si se repite o no</li>
+            <li>background-position -> establecer la posicion del background</li>
+            <li>background-size -> establecer el tamaño deñ background</li>
+            <li>background-origin ->establecer desde donde se empezara a dibujar el fondo</li>
+            <li>background-clip -> establecer en que parte de la caja se dibujara el fondo</li>
+            <li>background-attachment -> establecer si el background es relativo a la caja o al viewport</li>
+        </ul>
+    </p>
+    <a href="background.html">IR A ESTILOS DE BACKGROUND</a>
+</body>
+
+</html>
