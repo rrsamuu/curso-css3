@@ -1,0 +1,37 @@
+Es un modelo de layout que permute construir grillas o cuadriculas dinamicas. Es un valor de la propiedad display
+
+Al igual que con Flexbox, tenemos
+    display:grid
+    display:inline-grid
+
+Se necesita un contenedor
+    grid-conatiner
+y al menos un hijo
+    grid-item
+
+Las celdas son los ietms, el contenedor es el contexto al que pertenecen los items 
+
+grid-column
+    Es una columna de nuestra cuadricula
+
+grid-row
+    Es cada fila de nuestra cuadricula
+
+grid-cell
+    Es cada celda de nuestra cuadricula
+
+grid-grap
+    Es la seperacion entre celdas
+
+grid-line
+    Exite 
+        column lines
+        row lines
+    Son las lineas que delimitan cada columna/fila respectivamente
+
+
+En grid cada celda es dinamica y el resto de la cuadricula se adapta
+
+Podemos decir donde empieza cada celda y donde acaba, tanto en columna como en fila
+
+Sus posibilidades son inmensas
