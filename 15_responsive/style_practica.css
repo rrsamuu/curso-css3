@@ -1,0 +1,62 @@
+/* 
+banner con unidades de viewport
+footer siempre abajo
+responsive con flexbox
+responsive con grid
+*/
+
+body{
+    margin: 0;
+    color: #eee;
+    font-family: sans-serif;
+    background-image: radial-gradient(circle, #b94bf8, #3a1957);
+    background-repeat: no-repeat;
+    /* ---------------- */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .flexbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexbox__items{
+    margin: 2rem;
+    min-width: 320px;
+
+    flex:1 1 320px;
+} */
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-gap: 2rem;
+    padding: 1rem;
+}
+
+.grid__item{
+    text-align: justify;
+}
+
+.banner{
+    background-color: royalblue;
+    padding: 15vmin;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.footer{
+    background-color: red;
+    padding: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    /* no hacer esto para colcar el footer hasta abajo*/
+    /* position: relative;
+    bottom: 0; */
+    /* -------------------------- */
+    margin-top: auto;
+}

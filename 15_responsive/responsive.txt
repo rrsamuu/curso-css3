@@ -1,0 +1,47 @@
+No es un estandar, no es CSS, es un conjunto de patrones de diseño, como tambien una metodologia
+
+Su objetivo es  que cualuier pagina se vea bien independientemente del dispositivo
+
+Los frameworks resuelven ese problema, pero es un error utilizarlos para evitar aprender lo que hay por detras
+
+Se basaban en 3 conceptos fundamentales
+    columnas fluidas
+    imagenes flexibles: max-width 100%
+    medias querys
+    a dia de hoy el numero de retos a crecido notablemente y se hace "imprenscindible" el uso de  JavaScript
+
+---------------------------------------------------
+Columnas fluidas
+
+Para conseguir un sistema de columnas o de cajas fluidas es tan sencillo como aplicar los anchos en porcentaje
+
+NO hay asignar todos los anchos en porcentaje, solo se aplica a los elementos a los elementos que necesiten cambiar su tamaña
+
+------------------------------------------------------
+Medias querys
+
+Son condicionales para que el navegador sepa como actuar en funcion de la condicionales
+
+    all -> apto para todos los dispositivos
+
+    print -> destinado a material impreso y visualizacion del modo de vista previa de impresion
+
+    screen -> destinado principalmente a las pantallas
+
+    speech -> destinado asintetizadores de visualizacion
+
+sintaxis ->
+    @media "tipo_de_medio" and|or (condicion)
+
+    @media screen and (max-width: 1024px) and (orientation: landscape)
+
+    @media screen and (max-width: 480px) and (orientation: portrait)
+
+---------------------------------------------------------
+Metodologias
+
+    mobile-first -> consiste en hacer primero el diseño movil e ir subiendo de tamaño
+
+    desktop-first -> consiste en hacer primero el diseño de escritorio e ir bajando de tamaño
+
+    content-first -> consiste en saber primero todo el contenido d ela web y despues se hace  el diseño
