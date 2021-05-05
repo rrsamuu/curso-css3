@@ -1,0 +1,55 @@
+/* 
+    como funciona CSS
+    
+    especificidad -> establece como de especifico es un selector para saber que estulo aplicar
+
+    el calculo se realiza con la siguiente formula
+
+        Etiquetas y pseudoelementos         001
+        Clases, atributos y pseudoclases    010
+        Id's                                100
+        Estilos en linea                    1000
+
+        !important --GANA A TODO-- Y NO SE USA NUNCA
+
+    Cascada -> funciona siempre que la especificdad sobre el elemento sea la misma
+    Herencia
+*/
+
+/* ES MEJOR USAR SIEMPRE CLASES */
+
+/* especificadad 111, se puede visualizar poniendo el mouse encima del mismo */
+h1.title#title{
+    background-color: tomato;
+}
+
+h1{
+    background-color:red;
+}
+
+#title{
+    background-color: green;
+}
+
+.title{
+    background-color: blue;
+}
+
+h1.title{
+    background-color: yellow;
+}
+
+h1#title{
+    background-color: teal;
+}
+
+/* esto no se usa */
+/* no se usa el !IMPORTANT */
+.title{
+    background-color: red !important;
+}
+
+.title{
+    background-color: blue !important;
+}
+
