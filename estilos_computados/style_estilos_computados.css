@@ -1,0 +1,31 @@
+
+body{
+    background-color: #333;
+}
+
+
+h1{
+    color: cyan;
+    font-size: 10px;
+}
+
+/* los enlaces no heredan, hay que darle estilos propios */
+
+.text{
+    color: green;
+}
+
+/* forzar la herencia con inherit */
+
+.link{
+    color: inherit;
+}
+
+.list{
+    color: indianred;
+}
+
+/* si no se quiere heredar, se le coloca inital, para colocarse inicialmente */
+.list-item-extra{
+    color: initial;
+}
