@@ -1,0 +1,33 @@
+/* esto no se debe hacer */
+/* solo en el caso de tener un diseño innovador, reescribiendo todo */
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+/* margin 0 se aplica al body ya que todos loa navegadores tienen un marge de 8px por defecto */
+
+body{
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+}
+
+.header{
+    background-color: red;
+    height: 50px;
+}
+
+.block{
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    /* aqui se reescribe */
+    margin-top: 100px;
+    /* margin: 0 auto; */
+
+    /* esto de debe hacer */
+    margin-right: auto;
+    margin-left: auto;
+}
