@@ -1,0 +1,66 @@
+/* 
+    Box-zising:
+        Es la propiedad que nos permite controlar el calculo que j¿hace el navegador a la hora de modificar las propiedades "content, padding y border".
+
+        Los 2  valores que podemos darle son:
+            content-box -> valor por defecto
+            border-box -> calculo de tamaño del elemento incluyendo el padding y el border
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .block {
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    /* margin: 100px 50px 10px 200px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 5px solid red;
+    /* padding: 50px 20px 100px 70px; */
+    /* padding: 0; */
+  }
+  
+  .inline {
+    background-color: lightcoral;
+    color: inherit;
+    /* margin-right: 100px; */
+    /* margin-left: 100px; */
+    /* padding-right: 100px; */
+    /* padding-top: 100px; */
+    /* padding-bottom: 100px; */
+  }
+  
+  .buttons {
+    background-color: steelblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+  }
+  
+  .button {
+    margin-left: 235px;
+    padding: 25px 50px;
+  
+    border: 20px solid red;
+  
+    border-width: 20px;
+    border-style: solid;
+    border-color: red;
+  
+    border-right-color: red;
+    border-right-width: 20px;
+  
+    /* border-style: none; */
+    border-style: outset;
+  }
+  
