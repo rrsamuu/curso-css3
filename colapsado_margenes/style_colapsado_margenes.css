@@ -1,0 +1,50 @@
+/* 
+    LOS MARGENES VERTICALES COLAPSAN
+
+    COLAPSADO ENTRE PADRES E HIJOS DE MARGENES  
+
+    RECOMENDABLE PARA SEPARAR CON MARGIN-BOTTOM E IR HACIA ABAJO
+
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.header{
+    background-color: lightcoral;
+    height: 100px;
+    margin-bottom: 20px;
+    /* primer */
+    /* overflow: hidden; */
+
+    /* segundo */
+    /* padding-top: 0.1px; */
+
+    /* tercero */
+    border-top: 0.1px solid lightcoral;
+}
+
+.title{
+    margin: 0;
+    margin-top: 30px;
+}
+
+.box-1, .box-2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-color: lightcyan;
+    width: 300px;
+    height: 300px;
+}
+
+.box-2{
+    margin-top: 30px;
+}
